@@ -1,3 +1,4 @@
+cat > README.md <<'EOF'
 # Predicting Salary Using Linear Regression
 
 ## Overview
