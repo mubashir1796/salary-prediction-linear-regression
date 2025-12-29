@@ -1,55 +1,75 @@
-Predicting Salary Using Linear Regression
+\# Predicting Salary Using Linear Regression
 
-Overview
 
-This project builds a Linear Regression model to predict employee salaries based on years of work experience. The goal is to demonstrate how historical data can be used to support fair, data-driven compensation decisions in a corporate environment.
+
+\## Overview
+
+This project builds a linear regression model to predict employee salaries based on years of work experience. The objective is to demonstrate how historical data can support fair and data-driven compensation decisions in a corporate environment.
+
+
 
 The final model achieves an R² score of 0.90, indicating strong predictive performance. Model assumptions are validated using residual analysis, and stability is confirmed through cross-validation.
 
-Problem Statement
+
+
+\## Problem Statement
 
 During periods of economic slowdown and inflation, organizations must carefully manage hiring costs while maintaining employee motivation. Determining appropriate salary levels for future hires is a common challenge for finance and HR teams.
 
-This project explores whether years of experience can reliably predict salary levels and whether a linear regression model can support consistent and transparent salary decisions.
 
 
+<<<<<<< HEAD
 Dataset & Features
+=======
+This project explores whether years of experience can reliably predict salary levels using a linear regression model.
+
+
+
+\## Dataset
+>>>>>>> eabf2d3 (Fix README markdown formatting)
 
 The dataset contains the following variables:
 
-Years Experience – Number of years of professional work experience
+\- Years Experience
 
-Salary – Corresponding annual salary
+\- Salary
 
+<<<<<<< HEAD
 
 Target Variable:
+=======
+>>>>>>> eabf2d3 (Fix README markdown formatting)
 
-Salary
 
+<<<<<<< HEAD
 
 Methodology
 
 
 Data loading and inspection
+=======
+Target variable:
 
-Missing value checks and descriptive statistics
+\- Salary
+>>>>>>> eabf2d3 (Fix README markdown formatting)
 
-Exploratory Data Analysis (EDA)
 
-Correlation analysis
 
-Train-test split (80/20)
+\## Methodology
 
-Linear Regression model training
+\- Data loading and inspection
 
-Model evaluation using R² and RMSE
+\- Exploratory data analysis
 
-Residual analysis to validate regression assumptions
+\- Correlation analysis
 
-5-fold cross-validation to assess generalizability
+\- Train-test split
 
-Interactive salary prediction using a slider widget
+\- Linear regression model training
 
+\- Model evaluation using R² and RMSE
+
+<<<<<<< HEAD
 
 Model Assumptions Validation
 
@@ -58,25 +78,37 @@ The following linear regression assumptions were tested and satisfied:
 
 
 Linearity between experience and salary
+=======
+\- Residual analysis to validate assumptions
 
-Independence of residuals
+\- 5-fold cross-validation
 
-Homoscedasticity (constant variance of residuals)
-
-Normality of residuals
-
-Residual diagnostics confirmed the suitability of a linear regression model.
-
+\- Interactive salary prediction
+>>>>>>> eabf2d3 (Fix README markdown formatting)
 
 
 
-Model: Simple Linear Regression
+\## Results
 
+Model: Linear Regression  
+
+<<<<<<< HEAD
+
+
+=======
+Test R²: 0.90  
+>>>>>>> eabf2d3 (Fix README markdown formatting)
+
+Cross-validation R²: 0.89  
+
+<<<<<<< HEAD
 
 Test Set R²: 0.90
+=======
+>>>>>>> eabf2d3 (Fix README markdown formatting)
 
-Average Cross-Validation R²: 0.89
 
+<<<<<<< HEAD
 
 The model explains approximately 90% of the variation in salary, with consistent performance across multiple data splits.
 
@@ -85,18 +117,38 @@ Key Insights
 
 
 Years of experience is a strong predictor of salary
-
-Salary increases follow a clear linear trend
-
-The model generalizes well and shows no signs of overfitting
-
-Suitable for estimating fair salary ranges for future hires
+=======
+The model explains approximately 90 percent of the variation in salary.
 
 
+>>>>>>> eabf2d3 (Fix README markdown formatting)
+
+\## Conclusion
+
+This project demonstrates a complete and well-validated linear regression workflow. The results show that years of experience alone can serve as a reliable predictor of salary, supporting cost-conscious and data-driven hiring decisions.
+
+
+
+<<<<<<< HEAD
 Repository Structure
+=======
+\## Repository Structure
+>>>>>>> eabf2d3 (Fix README markdown formatting)
 
 
 salary-prediction-linear-regression/
+<<<<<<< HEAD
 ├── Linear_regression_salary.ipynb
 ├── years_experience_salary_data.csv
 └── README.md
+=======
+
+\- Linear\_regression\_salary.ipynb
+
+\- years\_experience\_salary\_data.csv
+
+\- README.md
+
+
+
+>>>>>>> eabf2d3 (Fix README markdown formatting)
